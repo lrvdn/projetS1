@@ -1,0 +1,60 @@
+.centre>h1{
+    background-image: url("/img/adntech.png");
+    text-indent: -9999px;
+    background-color: white;
+    height: 175px; ;
+    width: 247px;
+    position: relative;
+    left: 360px;
+    margin: 15px;
+}
+.accueil>header{
+    background-image: url("/img/fond.png");
+    background-color: transparent;
+}
+.bandeau-navigation>nav>ul>li>a{
+    background-image: url("/img/Icônes/menu.png");
+    text-indent: -999px;
+    background-color: white;
+}
+h2, h4{
+    font-family: "Courier Prime";
+    font-weight: lighter;
+}
+.accueil>h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.accueil>h4{
+    text-align: right;
+    font-size: 3rem;
+}
+.accueil>h4>a{
+    text-decoration: none;
+}
+body{
+    background-color: #8637F5;
+}
+footer{
+    display: block;
+    background-color: #170445;
+    color: #E4B6F8;
+}
+.iutlogo>img{
+    position: relative;
+    bottom: 100px;
+    left: 850px;
+    height: 130px;
+    width: 130px;
+}
+.footer-reseaux-sociaux>ul>li:first-child{
+    background: url("/img/Icônes/instagram.png") no-repeat;
+    position: relative;
+    text-indent: -9999px;
+    height: 100px;
+    width: 100px;
+}
+h4>a>img{
+    height: 50px;
+    width: 50px;
+}
