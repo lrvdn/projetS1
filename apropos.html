@@ -6,8 +6,60 @@
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/mescss/footer.css">
+    <link rel="stylesheet" href="css/mescss/apropos.css">
 
+</head>
+<body class="accueil">
+<header>
+    <div class="bandeau-navigation">
+        <nav>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="titre">
+        <h1> A propos </h1>
+    </div>
+</header>
+<form action="/apropos.html" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="name">Prénom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">Mail:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">OK</button>
+    </div>
+</form>
 </body>
+<footer>
+    <div class="footer-infos">
+        <p>Laura VÉDRINE MMI C2</p>
+        <a href="mailto:lvedrine@edu-univ.fcomte.fr"> lvedrine@edu-univ.fcomte.fr </a>
+        <p>Projet réalisé dans un cadre pédagogique au département <a href="http://mmimontbeliard.com/">MMI de l’IUT de MONTBÉLIARD</a></p>
+    </div>
+    <div class="footer-reseaux-sociaux">
+        <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+        </ul>
+    </div>
+    <div class="iutlogo">
+        <img src="img/Icônes/logodep2.png" alt="logommi">
+    </div>
+</footer>
 </html>

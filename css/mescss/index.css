@@ -8,7 +8,7 @@
     left: 360px;
     margin: 15px;
 }
-.accueil>header{
+header{
     background-image: url("/img/fond.png");
     background-color: transparent;
 }

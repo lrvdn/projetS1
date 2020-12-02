@@ -6,8 +6,65 @@
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/footer.css">
 </head>
-<body>
-
+<body class="accueil">
+<header>
+    <div class="bandeau-navigation">
+        <nav>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="titre">
+        <h1> Quelques faits scientifiques </h1>
+    </div>
+    <p>
+        La première caractéristique des logiciels du big data est la prise en charge directe de la question de la
+        conservation plutôt que le recours à des logiciels externes que sont les logiciels de sauvegarde, dans des
+        objectifs de simplification du fonctionnement, de la réduction de la tâche d’administration, et de diminution
+        des coûts d’acquisition et de maintenance de logiciels. Cette approche repose sur la redondance des entités de
+        données en lieu et place de mécanismes plus complexes des logiciels de sauvegarde qui comprennent des
+        sauvegardes totales et incrémentales sur des périodes glissantes dans le temps. La sauvegarde traditionnelle
+        est un peu envisageable dans le cadre du big data du fait de la très grande volumétrie traitée. Supposons qu’avec
+        une sauvegarde totale on doive créer une première copie sur bandes magnétiques pour 1 pétaoctet. La durée en
+        serait très longue (une dizaine de jours avec une dizaine de lecteurs bandes magnétiques). Ensuite, le mécanisme
+        de sauvegarde incrémentale fait que rechercher des données nouvellement créées ou modifiées depuis la dernière
+        sauvegarde n’est pas réalisable dans un intervalle de temps modéré : plusieurs heures ne suffiraient pas à examiner
+        plusieurs centaines de millions d’entités. Le fonctionnement traditionnel de la sauvegarde avec une fenêtre de
+        temps réservée à cet effet n’est donc pas réalisable en pratique. D’une part, la quantité croissante de données
+        fait que ces fenêtres ne peuvent plus se cantonner aux phases habituelles de relative inactivité, nuit ou week-end,
+        débordant sur les horaires d’activité normale et, d’autre part, cette suspension d’activité ne correspond pas à
+        la création continue d’information propre au big data. Un autre aspect des big data est en contradiction avec cette
+        approche traditionnelle : les outils de sauvegarde sont largement utilisés dans la protection des contenus des bases
+        de données relationnelles par l’existence d’agents logiciels pour les grandes bases relationnelles du marché qui
+        n’existent pas pour les bases non relationnelles. Or, comme ces bases deviennent également inadaptées aux quantités
+        d’informations auxquelles s’appliquent les outils d’analyse du big data, l’emploi des méthodes usuelles de sauvegarde
+        s’en trouve ainsi diminué. Il existe une autre solution que la création de plusieurs copies identiques : la
+        création de sommes de contrôle qui portent soit globalement sur un ensemble d’entités de données, soit sur des
+        fragments d’une entité. Ces sommes de contrôle sont dupliquées en un nombre donné qui est fonction du niveau de
+        redondance souhaité. Le gain d’espace est important, l’inconvénient est l’allongement du temps d’accès à l’entité
+        de données en raison du calcul nécessaire pour la reconstitution.
+    </p>
+</header>
 </body>
+<footer>
+    <div class="footer-infos">
+        <p>Laura VÉDRINE MMI C2</p>
+        <a href="mailto:lvedrine@edu-univ.fcomte.fr"> lvedrine@edu-univ.fcomte.fr </a>
+        <p>Projet réalisé dans un cadre pédagogique au département <a href="http://mmimontbeliard.com/">MMI de l’IUT de MONTBÉLIARD</a></p>
+    </div>
+    <div class="footer-reseaux-sociaux">
+        <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+        </ul>
+    </div>
+    <div class="iutlogo">
+        <img src="img/Icônes/logodep2.png" alt="logommi">
+    </div>
+</footer>
 </html>
+
