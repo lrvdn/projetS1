@@ -1,0 +1,13 @@
+@import url("https://fonts.google.com/specimen/Courier+Prime?query=courier+prime#standard-styles");
+@import url("https://fonts.google.com/specimen/Assistant?query=assis");
+.titre>h1{
+    font-family: "Courier Prime";
+    text-align: center;
+    color: #170445;
+}
+header>p{
+    font-family: "Assistant";
+    font-weight: normal;
+    font-size: 16px;
+    color: #321399;
+}

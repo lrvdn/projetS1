@@ -1,5 +1,5 @@
 footer{
-    display: block;
+    display: inline-block;
     background-color: #170445;
     color: #E4B6F8;
 }
@@ -9,11 +9,37 @@ footer{
     left: 850px;
     height: 130px;
     width: 130px;
+    top:-200px;
+
 }
-.footer-reseaux-sociaux>ul>li:first-child{
-    background: url("/img/Icônes/instagram.png") no-repeat;
+.footer-reseaux-sociaux>a>img{
     position: relative;
-    text-indent: -9999px;
-    height: 100px;
-    width: 100px;
+    left:580px;
+    top:20px;
+    margin: 0 15px 0 15px;
+    padding: 0;
+}
+.footer-infos>p:first-child{
+    position: relative;
+    font-family:"Sarabun";
+    font-size: 3rem;
+    top:-120px
+
+}
+.footer-infos>p:last-child{
+    position: relative;
+    font-family:"Sarabun";
+    font-size: 2rem;
+    top:-140px
+}
+
+.footer-infos>a{
+    position: relative;
+    font-family: "Sarabun";
+    color: #E4B6F8;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 25px;
+    margin: 10px 0 10px 0;
+    top:-140px
 }
