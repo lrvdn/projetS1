@@ -4,10 +4,6 @@ header>a>img{
     width: 50px;
     left:5px
 }
-img{
-    contain: content;
-    width: 100%;
-}
 header{
     background-color: #8C68D9;
 }
@@ -19,23 +15,49 @@ header{
 .button button a{
     text-decoration: none;
     text-align: center;
+    font-family: Assistant;
+    font-size: 1rem;
+    color: black;
 }
 .button{
     margin: 0 auto;
-    width: 150px;
+    width: 100px;
     padding: 20px;
     height: 25px;
 }
-h1{
-    font-size: 1rem;
+.titre>h1{
+    font-family: "Courier Prime";
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
-    margin: 15px;
 }
 p{
     font-family:Assistant;
     color: #321399;
-    margin:10px;
+    margin:19px;
     text-align: left;
     font-size: 1rem;
+}
+.galerie>h2{
+    border-top: 1px solid #000;
+    width: 300px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: Assistant;
+    font-weight: lighter;
+    text-align: center;
+    color:#321399;
+}
+figcaption{
+    text-align: center;
+    font-family: Assistant;
+    font-size: 12px;
+    color: #8C68D9;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.galerie>img{
+    display: inline-block;
+    position: relative;
+    contain: content;
 }
