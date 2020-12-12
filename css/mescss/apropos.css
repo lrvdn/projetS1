@@ -1,7 +1,7 @@
 form {
     /* Uniquement centrer le formulaire sur la page */
-    margin: 0 auto;
-    width: 400px;
+    margin: 20px auto;
+    width: 330px;
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
     border: 1px solid #A569F8;
@@ -24,7 +24,7 @@ input, textarea {
     font: 1em sans-serif;
 
     /* Pour que tous les champs texte aient la même dimension */
-    width: 300px;
+    width: 200px;
     box-sizing: border-box;
 
     /* Pour harmoniser le look & feel des bordures des champs texte */
@@ -57,18 +57,31 @@ h1{
     text-align: center;
     font-family: "Courier Prime";
     font-weight: lighter;
+    font-size: 18px;
 }
 h2{
     color: #321399 ;
     text-align: center;
     font-family: "Assistant";
     font-weight: lighter;
+    font-size: 20px;
     margin: 0 0 4px 0;
-}
-.autresprojets img{
-    margin: 15px 0px 15px 0;
-    padding-left: 145px;
 }
 .autresprojets>a{
     text-decoration: none;
+}
+header>img{
+    position: relative;
+}
+header{
+    background-color: #8C68D9;
+}
+header>a>img{
+    position: relative;
+    height: 71px;
+    width: 50px;
+    left:5px
+}
+header{
+    background-color: #8C68D9;
 }

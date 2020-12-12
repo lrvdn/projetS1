@@ -1,45 +1,50 @@
 footer{
-    display: inline-block;
     background-color: #170445;
     color: #E4B6F8;
+    margin: 0;
 }
 .iutlogo>img{
+    contain: content;
     position: relative;
-    bottom: 100px;
-    left: 850px;
-    height: 130px;
-    width: 130px;
-    top:-200px;
+    height: 40px;
+    width: 40px;
+    top:-147px;
+    left:218px;
 
 }
-.footer-reseaux-sociaux>a>img{
+.footer-reseaux-sociaux>a>img,.footer-reseaux-sociaux>a{
+    contain: content;
     position: relative;
-    left:580px;
-    top:20px;
-    margin: 0 15px 0 15px;
+    width: 30px;
+    height: 30px;
+    top:10px;
+    left:130px;
+    margin: 0 1px 0 1px;
     padding: 0;
 }
 .footer-infos>p:first-child{
     position: relative;
     font-family:"Sarabun";
-    font-size: 3rem;
-    top:-120px
+    font-size: 1rem;
+    top: -40px;
+
 
 }
 .footer-infos>p:last-child{
     position: relative;
     font-family:"Sarabun";
-    font-size: 2rem;
-    top:-140px
-}
+    font-size: 14px;
+    top:-55px
 
+}
 .footer-infos>a{
     position: relative;
     font-family: "Sarabun";
     color: #E4B6F8;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 14px;
     padding-left: 25px;
     margin: 10px 0 10px 0;
-    top:-140px
+    top:-50px;
+
 }

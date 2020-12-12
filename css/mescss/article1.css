@@ -1,0 +1,41 @@
+header>a>img{
+    position: relative;
+    height: 71px;
+    width: 50px;
+    left:5px
+}
+img{
+    contain: content;
+    width: 100%;
+}
+header{
+    background-color: #8C68D9;
+}
+.button button{
+    background-color: #8637F5;
+    border: 1px solid #8637F5;
+    border-radius: 3em;
+}
+.button button a{
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    margin: 0 auto;
+    width: 150px;
+    padding: 20px;
+    height: 25px;
+}
+h1{
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 15px;
+}
+p{
+    font-family:Assistant;
+    color: #321399;
+    margin:10px;
+    text-align: left;
+    font-size: 1rem;
+}
