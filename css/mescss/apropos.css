@@ -1,3 +1,4 @@
+/* FORMULAIRE CONTACT*/
 form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 20px auto;
@@ -52,6 +53,7 @@ button {
     border-radius: 1em;
     font-family: Sarabun;
 }
+/* TITRES*/
 h1{
     color: #170445;
     text-align: center;
@@ -67,9 +69,7 @@ h2{
     font-size: 20px;
     margin: 0 0 4px 0;
 }
-.autresprojets>a{
-    text-decoration: none;
-}
+/* HEADER*/
 header>img{
     position: relative;
 }
@@ -80,8 +80,18 @@ header>a>img{
     position: relative;
     height: 71px;
     width: 50px;
-    left:5px
+    left:5px;
 }
 header{
     background-color: #8C68D9;
 }
+/* AUTRES PROJETS*/
+.autresprojets>a{
+     text-decoration: none;
+ }
+.autresprojets>a>img{
+    position: relative;
+    margin: 0;
+    border-radius: 10px;
+}
+

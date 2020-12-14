@@ -9,6 +9,7 @@ h2, h4{
 h2{
     text-align: center;
     font-size: 17px;
+    color:#170445;
 }
 h4{
     text-align: right;
@@ -16,6 +17,7 @@ h4{
 }
 h4>a{
     text-decoration: none;
+    color:#360086;
 }
 body{
     background-color: #8637F5;
@@ -23,7 +25,7 @@ body{
 .bannière>img{
     position: absolute;
     top:0;
-    height: 272px;
+    height: 251px;
     width: 375px;
     contain: content;
     opacity: 40%;
